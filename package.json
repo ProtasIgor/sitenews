@@ -1,5 +1,20 @@
 {
   "dependencies": {
     "node-sass": "^8.0.0"
-  }
+  },
+  "name": "sitenews",
+  "description": "sitenews",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-convert": "node-sass --output-style compressed ./source/scss/style.scss ./docs/css/style.css",
+    "sass-media-convert": "node-sass --output-style compressed ./source/scss/media.scss ./docs/css/media.min.css"
+  },
+  "author": "Protas Igor",
+  "license": "MIT"
 }
